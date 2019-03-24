@@ -23,7 +23,7 @@ import java.util.List;
  * Interface for scheduler. Scheduler is used for manage the lifecycle of job.
  * Including query, submit and cancel job.
  *
- * Scheduler can run both in Zeppelin Server and Interpreter Process. e.g. RemoveScheduler run
+ * Scheduler can run both in Zeppelin Server and Interpreter Process. e.g. RemoteScheduler run
  * in Zeppelin Server side while FIFOScheduler run in Interpreter Process.
  */
 public interface Scheduler extends Runnable {

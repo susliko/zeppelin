@@ -45,6 +45,7 @@ public class SleepingJob extends Job {
 
   @Override
   public Object jobRun() {
+    status = Status.RUNNING;
     start = System.currentTimeMillis();
     while (abort == false) {
       count++;
